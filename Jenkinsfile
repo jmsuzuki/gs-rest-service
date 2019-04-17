@@ -25,7 +25,7 @@ pipeline {
         }
         stage('Test') {
           steps {
-            sh 'grade -p complete test'
+            sh 'grade -p test'
           }
         }
       }
