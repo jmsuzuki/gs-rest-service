@@ -25,7 +25,7 @@ pipeline {
         }
         stage('Test') {
           steps {
-            sh 'gradle -p test'
+            sh 'gradle -p complete assemble'
           }
         }
       }
